@@ -1,0 +1,92 @@
+<!--pages/home/index.wxml-->
+<view class='home-top'>
+  <view >
+  <navigator url="/pages/help/help">
+    <image src='' style='height:100px'></image>
+  </navigator>
+  </view>
+  <view style='padding:4vw' bindtap='goSearch'>
+    <view class="home-search">
+      <image src='/images/search.png' style='width:14px;height:14px;margin-right:10px;'></image>
+      <text>搜商品关键字或粘贴标题，查内部券，拿奖励</text>
+    </view>
+  </view>
+
+</view>
+
+<!--top部分结束  -->
+<view class='home-middle'>
+  <view class="middle-left" bindtap='goOne'>
+  </view>
+  <view class='middle-right'>
+    <view class='middle-right-1' bindtap='goTwo'>
+    </view>
+    <view class='middle-right-2' bindtap='goThree'>
+    </view>
+  </view>
+</view>
+<!--中间广告栏部分结束  -->
+
+<view class='middle-text'>
+  精品推荐持续更新
+</view>
+
+<scroll-view scroll-x style='white-space:nowrap;'>
+  <view class='menu-box'>
+    <view wx:for="{{goodsList}}" bindtap='handleGoodsIdChange' data-goods-id='{{item.id}}' class='menu {{goodsId==item.id?"menu-active":""}}'>
+      {{item.name}}
+    </view>
+  </view>
+</scroll-view>
+<!--滑动Tab栏结束  -->
+
+<view class='goods'>
+
+  <view class='goods-item' bindtap='goDetail'>
+
+    <view class='goods-item-body'>
+      <image src='https://img.alicdn.com/imgextra/i1/2038648986/TB1zWfza5jQBKNjSZFnXXa_DpXa_!!0-item_pic.jpg_430x430q90.jpg'></image>
+      <view class='biaoti'>MUJI 舒适 颈部靠枕</view>
+      <view class='detail'>
+        <view class='price'>
+          <text class="nowprice">￥135</text>
+          <text class="exprice">¥150</text>
+        </view>
+        <text class='sellaccount'>月销量957</text>
+      </view>
+      <view class='goods-item-row bgc'>
+        <view class='goods-item-left'>
+          <text class='price'>2元</text>
+          <text class="name">优惠券</text>
+        </view>
+        <view class='goods-item-right '>
+          <text class='buttom'>领券</text>
+        </view>
+      </view>
+    </view>
+  </view>
+<view class='goods-item'>
+
+    <view class='goods-item-body'>
+      <image src='https://img.alicdn.com/imgextra/i1/2038648986/TB1zWfza5jQBKNjSZFnXXa_DpXa_!!0-item_pic.jpg_430x430q90.jpg'></image>
+      <view class='biaoti'>MUJI 舒适 颈部靠枕</view>
+      <view class='detail'>
+        <view class='price'>
+          <text class="nowprice">￥135</text>
+          <text class="exprice">¥150</text>
+        </view>
+        <text class='sellaccount'>月销量957</text>
+      </view>
+      <view class='goods-item-row bgc'>
+        <view class='goods-item-left'>
+          <text class='price'>2元</text>
+          <text class="name">优惠券</text>
+        </view>
+        <view class='goods-item-right '>
+          <text class='buttom'>领券</text>
+        </view>
+      </view>
+    </view>
+  </view>
+  
+</view>

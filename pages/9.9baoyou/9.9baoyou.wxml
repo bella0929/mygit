@@ -1,0 +1,28 @@
+<!--pages/9.9baoyou/9.9baoyou.wxml-->
+<text>pages/9.9baoyou/9.9baoyou.wxml</text>
+<view class="coupon">
+  <view class="coupon-left">
+    <view class="coupon-inner">
+      <view class="coupon-money">
+        <!-- <text></text> -->
+        <text class="sum">¥4</text>
+        <text class='coupon-condition'>优惠券</text>
+      </view>
+      <view class="coupon-condition">
+        <text>有效期2018-4-3至2018-7-10</text>
+        
+      </view>
+    </view>
+  </view>
+  <view class="coupon-right">
+    <view class="coupon-inner">
+      <view class="btn">
+
+        立即领券
+      </view>
+      <view class="coupon-circle top"></view>
+      <view class="coupon-circle bottom"></view>
+    </view>
+  </view>
+  <view class="coupon-light"></view>
+</view>

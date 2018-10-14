@@ -1,0 +1,13 @@
+<!--pages/myfriend/myfriend.wxml-->
+<!-- <text>pages/myfriend/myfriend.wxml</text> -->
+<view class='top'>
+
+  <view wx:for="{{friendList}}" class='left'>
+    <view class='{{friendId==item.id?"active-box":""}}' 
+    style='border-bottom: 1px solid #ffffff'
+      data-friend-id="{{item.id}}" bindtap='handleClick'> 
+    {{item.name}}
+    </view>
+  </view>
+  
+</view>

@@ -1,0 +1,62 @@
+<!--pages/user/my.wxml-->
+<view class='my-top'>
+  <image class='mytx' src='/images/boy.png' bindtap='login'></image>
+  <view class='word'>
+
+    <text class='dianji'>点击头像授权，赚取收益</text>
+    <view>
+      <text class='type'>消费者</text>
+    </view>
+  </view>
+  <view class='button'>
+    推广赚钱 </view>
+
+</view>
+<!-- TOP结束 -->
+<view class='middle-word'>
+  <navigator url="/pages/teach/teach">
+    <view class='item'>
+      <view class='item-left'>
+        <image class='item-image' src='/images/book.png'></image>
+        新手教程</view>
+      <view class='item-right'>
+        <image class='item-image item-right' src='/images/进入.png'></image>
+      </view>
+    </view>
+  </navigator>
+
+  <navigator url='/pages/invite/invite'>
+    <view class='item'>
+      <view class='item-left'>
+        <image class='item-image' src='/images/分享.png'></image>
+        邀请好友</view>
+      <view class='item-right'>
+        <image class='item-image item-right' src='/images/进入.png'></image>
+      </view>
+    </view>
+  </navigator>
+  <navigator url='/pages/myfriend/myfriend'>
+    <view class='item'>
+      <view class='item-left'>
+        <image class='item-image' src='/images/我的好友.png'></image>
+        我的好友</view>
+      <view class='item-right'>
+        <image class='item-image item-right' src='/images/进入.png'></image>
+      </view>
+    </view>
+  </navigator>
+</view>
+<!-- 中间部分结束 -->
+<view class='wechat'>
+
+  <view class='item-left'>
+    <view class='text1'  >小编微信号：{{wechat_code}}</view>
+    <view class='text2'>火速加小编，躺赚很简单</view>
+  </view>
+  <view class='item-right'>
+    <view class='copybtn'>
+      <text class='copybtn-text'  bindtap="copyTBL">戳我复制</text>
+    </view>
+  </view>
+
+</view>

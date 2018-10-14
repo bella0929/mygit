@@ -1,0 +1,42 @@
+{
+  "pages": [
+    "pages/home/index",
+    "pages/index/index",
+    "pages/logs/logs",
+    "pages/user/my",
+    "pages/help/help",
+    "pages/teach/teach",
+    "pages/invite/invite",
+    "pages/9.9baoyou/9.9baoyou",
+    "pages/gotwo/gotwo",
+    "pages/gothree/gothree",
+    "pages/search/search",
+    "pages/goodsdetail/goodsdetail",
+    "pages/myfriend/myfriend"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "省多多",
+    "navigationBarTextStyle": "black"
+  },
+  "tabBar": {
+    "color": "#000000",
+    "selectedColor": "#ff5000",
+    "list": [
+      {
+        "pagePath": "pages/home/index",
+        "text": "首页",
+        "iconPath": "images/home.png",
+        "selectedIconPath": "images/首页.png"
+      },
+      {
+        "pagePath": "pages/user/my",
+        "text": "我的",
+        "iconPath": "images/我的.png",
+        "selectedIconPath": "images/我的2.png"
+      }
+    ],
+    "position": "bottom"
+  }
+}

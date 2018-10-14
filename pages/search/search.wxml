@@ -1,0 +1,14 @@
+<!--pages/search/search.wxml-->
+<view class='search-box'>
+  <input class='input' value='搜索优惠商品'></input>
+</view>
+<view>
+  <text class='text'>大家搜索</text>
+</view>
+<view class='search-word'>
+  <view class='word-item'>纸巾</view>
+  <view class='word-item'>女鞋</view>
+  <view class='word-item'>内衣</view>
+  <view class='word-item'>包包</view>
+  
+</view>

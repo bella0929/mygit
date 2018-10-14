@@ -1,0 +1,278 @@
+/* pages/goodsdetail/goodsdetail.wxss */
+
+page {
+  background-color: #f5f5f5;
+}
+
+.bgc {
+  background-color: white;
+}
+
+swiper {
+  height: 80vw;
+  width: 100%;
+}
+
+.swiper-image {
+  height: 100%;
+  width: 100%;
+}
+
+.slide-image {
+  height: 100%;
+  width: 100%;
+}
+
+.price-row {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 10px 10px;
+}
+
+.left-item {
+  width: 50%;
+  text-align: left;
+}
+
+.right-item {
+  width: 50%;
+  text-align: right;
+  font-size: 12px;
+}
+
+.earntext {
+  background-color: #ff5000;
+  color: white;
+  border: 1px solid #ff5000;
+  padding: 2px 5px;
+}
+
+.earnnumber {
+  color: #ff5000;
+  border: 1px solid #ff5000;
+  padding: 2px 5px;
+}
+
+.oldprice {
+  color: #999;
+  text-decoration: line-through;
+  font-size: 14px;
+}
+
+.nowprice-text {
+  font-size: 15px;
+  color: #ff5000;
+}
+
+.nowprice-number {
+  font-size: 25px;
+  color: #ff5000;
+}
+
+.middle {
+  margin: 10px 10px;
+}
+
+.title {
+  font-size: 18px;
+}
+
+.sellnumber {
+  color: #999;
+  font-size: 12px;
+  margin-top: 5px;
+}
+
+/* quan */
+
+.coupon {
+  position: relative;
+  /* background: #d51d27; */
+  background-image: linear-gradient(to right, #ff9000 0, #ff5000 100%);
+  color: #fff;
+  width: 100%;
+  height: 80px;
+  line-height: 25px;
+  overflow: hidden;
+  margin-top: 15px;
+  border-radius: 10px;
+}
+
+.coupon-diabled {
+  background: #c3c3c3;
+  color: #666;
+}
+
+.coupon:after {
+  content: ".";
+  display: block;
+  height: 0;
+  clear: both;
+  visibility: hidden;
+}
+
+.coupon-money .sum {
+  font-size: 40px;
+}
+
+.coupon-left {
+  float: left;
+  text-align: left;
+  width: 60%;
+  font-size: 12px;
+  /* background: url(./circle-border-left.png) left center no-repeat; */
+}
+
+.coupon-right {
+  float: right;
+  text-align: center;
+  width: 40%;
+  font-size: 14px;
+  /* background: url(./circle-border-right.png) right center no-repeat; */
+}
+
+.coupon-inner {
+  padding: 10px 15px;
+  height: 75px;
+  position: relative;
+}
+
+.coupon-right .coupon-inner {
+  border-left: 2px dashed rgba(255, 255, 255, 0.5);
+}
+
+.coupon-money, .coupon-time {
+  margin-top: 12px;
+}
+
+.coupon-circle {
+  display: inline-block;
+  width: 16px;
+  height: 16px;
+  background: #fff;
+  position: absolute;
+  left: -9px;
+  border-radius: 50%;
+}
+
+.coupon-circle.top {
+  top: -8px;
+}
+
+.coupon-circle.bottom {
+  bottom: -8px;
+}
+
+.coupon-light {
+  position: absolute;
+  top: 20px;
+  left: 20%;
+  height: 150px;
+  width: 100%;
+  background: rgba(255, 255, 255, 0.2);
+  transform: rotate(-30deg);
+  -webkit-transform: rotate(-30deg);
+  -moz-transform: rotate(-30deg);
+}
+
+.btn {
+  background-color: white;
+  color: #ff5000;
+  border-radius: 15px;
+  line-height: 30px;
+  text-align: center;
+  margin: 18px 0 0 18px;
+  width: 80px;
+}
+
+.quan {
+  margin: 10px 10px;
+}
+
+.quannumber {
+  color: #999;
+  font-size: 12px;
+  text-align: center;
+  /* border-bottom: 1px solid #999; */
+}
+
+.item-text {
+  color: #999;
+  font-size: 12px;
+}
+
+.item-image {
+  width: 10px;
+  height: 10px;
+}
+
+.smallitems {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  border-top: 1px solid lightgrey;
+  margin: 10px 10px;
+}
+
+.goods-box {
+  padding: 10px 10px;
+}
+
+.goods-title {
+  font-size: 15px;
+  border-bottom: 1px solid lightgray;
+}
+
+.goods-content {
+  margin-top: 10px;
+  color: #999;
+  font-size: 10px;
+  background-color: #f5f5f5;
+  line-height: 30px;
+  padding-bottom: 50px;
+}
+
+.tapleft, .tapmiddle {
+  background-color: #666;
+  color: white;
+  font-size: 15px;
+  width: 33.3%;
+  height: 100%;
+  /* padding-top: 10px; */
+  /* display: flex; */
+  /* align-items: center; */
+  /* justify-content: center; */
+}
+
+.tapright {
+  color: white;
+  font-size: 15px;
+  background-image: linear-gradient(to right, #ff9000 0, #ff5000 100%);
+  width: 33.3%;
+  height: 100%;
+  /* ß */
+}
+
+.tapright, .tapmiddle, .tapleft{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.bottomtap {
+  display: flex;
+  align-items: center;
+  /* justify-content: space-between; */
+  height: 50px;
+  text-align: center;
+}
+.tapmiddle{
+  border-left: 1px solid #505050;
+}
+.foot{
+  position: fixed;
+  bottom: 0px;
+  
+  width: 100%;
+}

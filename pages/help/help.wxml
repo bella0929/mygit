@@ -1,0 +1,9 @@
+<!--pages/help/help.wxml-->
+<view class="jieshao">
+  <text class="title">
+1、什么是省多多？</text>
+<text class='content'>
+省多多帮助群主和公众号主对接大型电商平台，通过帮助商家分享商品链接，获得订单分佣收入。高比例佣金、丰富的推广形式、专业营销策划、热门分销推荐，让群主和公众号主无论大小，都能一样轻松变现。
+</text>
+<text class='title'>2、省多多怎么用？</text>
+</view>

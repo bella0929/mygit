@@ -1,0 +1,31 @@
+/* pages/search/search.wxss */
+.search-box{
+  height: 30px;
+  border-radius: 15px;
+  background-color: #f5f5f5;
+  margin: 10px 10px;
+}
+.input{
+  padding: 0 0 0 13px;
+  font-size: 13px;
+  color: rgba(153, 153, 153, 0.678);
+}
+.text{
+  font-size: 13px;
+  color: #999;
+  padding-left: 15px;
+}
+.search-word{
+  margin: 10px 0 0 10px;
+  font-size: 15px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+.word-item{
+  background-color: #f5f5f5;
+  border-radius: 15px;
+  padding: 5px 10px 5px 10px;
+  /* line-height: 30px; */
+
+}

@@ -1,0 +1,111 @@
+<!--pages/goodsdetail/goodsdetail.wxml-->
+<swiper indicator-dots="{{indicatorDots}}" autoplay="{{autoplay}}" interval="{{interval}}" duration="{{duration}}">
+  <block wx:for="{{imgUrls}}">
+    <swiper-item>
+      <image src="{{item}}" bindtap="previewImage" class="slide-image" />
+    </swiper-item>
+  </block>
+</swiper>
+<!-- 轮播图结束 -->
+<view class='bgc'>
+  <view class='price-row '>
+    <view class='left-item'>
+
+      <text class='nowprice-text'>券后价￥</text>
+      <text class='nowprice-number'>15.8</text>
+
+      <text class='oldprice'>￥28</text>
+    </view>
+    <view class='right-item'>
+      <text class='earntext'>预计推广赚</text>
+      <text class='earnnumber'>￥2.64</text>
+    </view>
+  </view>
+  <!-- 价格部分结束 -->
+  <view class='middle '>
+    <view class='title'>
+      MUJI 舒适 颈部靠枕
+    </view>
+    <view class='sellnumber'>
+      销量：6790
+    </view>
+  </view>
+  <!-- 标题和销量部分结束 -->
+  <view class='quan '>
+    <view class="coupon">
+      <view class="coupon-left">
+        <view class="coupon-inner">
+          <view class="coupon-money">
+            <!-- <text></text> -->
+            <text class="sum">¥4</text>
+            <text class='coupon-condition'>优惠券</text>
+          </view>
+          <view class="coupon-condition">
+            <text>有效期2018-4-3至2018-7-10</text>
+
+          </view>
+        </view>
+      </view>
+      <view class="coupon-right">
+        <view class="coupon-inner">
+          <view class="btn">
+
+            立即领券
+          </view>
+          <view class="coupon-circle top"></view>
+          <view class="coupon-circle bottom"></view>
+        </view>
+      </view>
+      <view class="coupon-light"></view>
+    </view>
+  </view>
+  <!-- 优惠券部分结束 -->
+  <view class='quannumber '>
+    总优惠券2000张 剩余390张
+  </view>
+
+  <view class='smallitems'>
+    <view class='item'>
+      <image class='item-image' src='/images/勾号.png'></image>
+      <text class='item-text'>全场包邮</text>
+    </view>
+    <view class='item'>
+      <image class='item-image' src='/images/勾号.png'></image>
+      <text class='item-text'>正品保证</text>
+    </view>
+    <view class='item'>
+      <image class='item-image' src='/images/勾号.png'></image>
+      <text class='item-text'>48小时内发货</text>
+    </view>
+    <view class='item'>
+      <image class='item-image' src='/images/勾号.png'></image>
+      <text class='item-text'>收获补贴</text>
+    </view>
+  </view>
+</view>
+
+<view class='goods-box bgc'>
+  <view class='goods-title'>商品描述</view>
+  <view class='goods-content'>
+    <text>主体表面面料:聚酯纤维85%,氨纶15%,填充物:聚苯乙烯(发泡串珠)套子:棉100%
+</text>
+  </view>
+</view>
+<view class='foot'>
+  <view class='bottomtap'>
+    <view class='tapleft'>
+      <view>
+        <view>￥15.8 </view>
+        <view>自买</view>
+      </view>
+    </view>
+
+    <view class='tapmiddle'>
+      <view>
+        <view>省￥3，奖￥2.75</view>
+        <view>成为推手</view>
+      </view>
+    </view>
+    <view class='tapright'>分享</view>
+  </view>
+</view>
