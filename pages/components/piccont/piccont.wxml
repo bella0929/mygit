@@ -1,0 +1,5 @@
+<view class='pic-box'>
+  <view wx:for="{{list}}" class='item' style='width:{{100/cell}}%'>
+    <image src='{{item.src}}' class='img' mode="widthFix"></image>
+  </view>
+</view>

@@ -1,0 +1,10 @@
+<!--pages/components/index.wxml-->
+<ticket></ticket>
+
+<news></news>
+
+<menu></menu>
+
+<goods></goods>
+
+<piccont></piccont>

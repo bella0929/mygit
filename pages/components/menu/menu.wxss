@@ -1,0 +1,29 @@
+/* pages/components/menu/menu.wxss */
+.menubox{
+  height: 160px;
+  /* display: flex;
+  align-items: center;
+  justify-content: space-around;
+ */
+  
+  /* float: left; */
+}
+.item{
+  display: block;
+  float: left;
+  /* width: 25%; */
+}
+.item-img{
+  display: flex;
+justify-content: center;
+}
+.item-img image{
+  height: 50px;
+  width: 50px;
+  align-items: center;
+}
+.item-text{
+  font-size: 15px;
+  text-align: center;
+  color: #999;
+}

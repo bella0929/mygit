@@ -1,0 +1,11 @@
+{
+  "component": true,
+  "usingComponents":{
+    "ticket":"ticket/ticket",
+    "news": "news/news",
+    "menu":"menu/menu",
+    "goods":"goods/goods",
+    "piccont":"piccont/piccont"
+
+  }
+}

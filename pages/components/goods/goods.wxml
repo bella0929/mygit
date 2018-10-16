@@ -1,0 +1,9 @@
+<view class='box'>
+  <view class='goods-box' style='width:{{100/cell}}%' wx:for="{{list}}">
+    <view class='goods-item'>
+      <image src='https://img.alicdn.com/imgextra/i2/619123122/TB2OMkLE9tYBeNjSspaXXaOOFXa_!!619123122.jpg_430x430q90.jpg' class='img' mode="widthFix"/>
+      <view class='item-title'>{{item.name}}</view>
+      <view class='item-price'>￥99.00</view>
+    </view>
+  </view>
+</view>

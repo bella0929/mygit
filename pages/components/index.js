@@ -1,17 +1,11 @@
-// pages/gothree/gothree.js
+// pages/components/index.js
 Page({
 
   /**
    * 页面的初始数据
    */
   data: {
-    price:10,
-    des:"满100.00元可用",
-    topBttom:60
-  },
 
-  handleOpen(){
-    console.log("handleOpen")
   },
 
   /**

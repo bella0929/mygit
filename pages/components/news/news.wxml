@@ -1,0 +1,6 @@
+
+<view class='box' style='background-color:{{bgcColor}};padding:{{boxPadding}} 10px'>
+  <view class='pic'>
+  <image src='{{imgSrc}}'></image></view>
+  <view class='text' style='color:{{textColor}}'>{{msg}}</view>
+</view>

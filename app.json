@@ -1,5 +1,6 @@
 {
   "pages": [
+    "pages/components/index",
     "pages/home/index",
     "pages/index/index",
     "pages/logs/logs",
@@ -12,7 +13,8 @@
     "pages/gothree/gothree",
     "pages/search/search",
     "pages/goodsdetail/goodsdetail",
-    "pages/myfriend/myfriend"
+    "pages/myfriend/myfriend",
+    "pages/components/news/news"
   ],
   "window": {
     "backgroundTextStyle": "light",
